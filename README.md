@@ -14,12 +14,12 @@ This project focuses on the analysis and prediction of banking customer churn us
 
 To set up the project on your local machine:
 
-1. **Clone the repository**: use “git clone &lt;<https://github.com/amasody/ChurnGuard-Analytics-Dashboard.git>&gt;"
+1. **Clone the repository**: use “git clone <https://github.com/amasody/ChurnGuard-Analytics-Dashboard.git>
 2. **Setup MySQL**: Import the **bank_churn_train.csv** file from the repository into your MySQL instance, then run the queries to perform the initial exploratory analysis.
 3. **Install R and required libraries**: Make sure R and RStudio are installed and run the **R Required Packages.R** file in R to install the necessary packages
 4. **Run the R script**: Open **ChurnGuard R model.R** in RStudio and run the script to preprocess data, compare models, and build the random forest model. If you prefer to skip model training and use the pre-trained model, load the saved **random forest model** directly in R using the file location path: “model <- readRDS("Rf_model.RDS")”
 5. **Power BI Service & R Script Visuals**: To display the R script visual used for churn prediction, users must have **R** and the necessary libraries installed on their local machines and import the **Rf_model.RDS** file using the file location path into the script used in the dashboard. An example script is in the **Churn Predictor PBI Script.r** file
-6. **Open PowerBI Dashboard**: Download BankChurnDash.pbix and open it in Power BI Desktop for full access to the interactive dashboard. Alternatively, if you have a Power BI Pro account, you can fully utilize the dashboard, including the predictor tool. Otherwise, you can still use the dashboard for exploratory analysis via the Power BI service: &lt;insert-link-here&gt;.
+6. **Open PowerBI Dashboard**: Download BankChurnDash.pbix and open it in Power BI Desktop for full access to the interactive dashboard.
 
 **Dataset**
 
